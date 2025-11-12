@@ -51,7 +51,6 @@ class BankAccount {
 const account1 = new BankAccount(1, "Karan", 500);
 const account2 = new BankAccount(2, "Utsav", 1000);
 
-// Perform operations
 account1.deposit(300);
 account1.withdraw(200);
 account1.transfer(400, account2); 
