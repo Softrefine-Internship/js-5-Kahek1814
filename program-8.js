@@ -9,7 +9,7 @@ class Animal{
         this.sound=sound
     }    
 
-    makeAnimalSoung(){
+    makeAnimalSound(){
         console.log(`${this.species} do ${this.sound}....${this.sound}`)
     }
 }
@@ -19,9 +19,9 @@ class Dog extends Animal{
         this.color=color;
     }
     makeAnimalSoung(){
-        super.makeAnimalSoung();
+        super.makeAnimalSound();
         console.log(`And has ${this.color} color`)
     }
 }
 const myDog = new Dog("Dog", "Woof", "Brown");
-myDog.makeAnimalSoung();
+myDog.makeAnimalSound();
